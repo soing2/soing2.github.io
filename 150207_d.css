@@ -9,18 +9,45 @@ img{
     width: 100%;
     height: 100%;
 }
+
+.logo {
+    position: inherit;
+    width:58px;
+    height: 30px;
+    top: 30px;
+    left: 140px;
+}
+.menu{
+    position: inherit;
+    width: 34px;
+    height: 30px;
+    top: 30px;
+    right: 140px;
+}
+
+.a1{
+    width: 18px;
+    height: 18px;
+    top: 336px;
+    right: 140px;
+}   
+.a:hover{
+}
+
 .bar{
     position: absolute;
     z-index: 3000;
     width: 100%;
-    height: 60px;
+    height: 100px;
     background: #343434;
+    opacity: 0.5;
+    
     
 }
 .header{
     position: relative;
     width: 100%;
-    height:400px;
+    height:100%;
 }
 
 .contents{ 
