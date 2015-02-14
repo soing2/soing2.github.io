@@ -1,8 +1,22 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
 img{ 
     width: 100%;
     height: 100%;
 }
-
+.bar{
+    position: absolute;
+    z-index: 3000;
+    width: 100%;
+    height: 60px;
+    background: #343434;
+    
+}
 .header{
     position: relative;
     width: 100%;
@@ -11,24 +25,39 @@ img{
 
 .contents{ 
     position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+.container{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 766px;
+    
 }
-.div{
+
+.info{ 
+    background-color: #ececec;
+    height: 500px;
 }
 
 .footer{
     width: 100%;
     height: 300px;
+    background-color: #343434;
+    height: 280px;
+    
 }
 
 .wid { 
     flex:1;
-    min-width:300px;
+    min-width:200px;
+    margin: 5px;
     width:300px;
-    height:300px;
-    margin-left:236px;
-    margin-top:232px;
+    height:236px;
     background-color:black;
 }
