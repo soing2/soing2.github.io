@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="150207_d.css">
+        <link rel="stylesheet" href="popup.css">
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="js/control.js"></script>
         <title>Portfolio soyoung</title>
         
     </head>
@@ -14,24 +17,49 @@
         </div>
         <div class="header">
             <img src="image/main.png">
-            <div style="width:16px; heignt:16px;" class="swipe">
+            <div class="swipe">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <!--
                 <img src="image/dot.png" class="a1">
                 <img src="image/dot.png" class="a2">
                 <img src="image/dot.png" class="a3">
+                -->
             </div>
             
         </div>
         
         <div class="contents">
+            
             <div class="container"> 
                 <div class="wid">
                     <img src="image/img1.png">
+                    <a href="javascript:showPopup()">
+                        <div class="wid_overlay">
+                            <div class="wid_overlay_text0"> 
+                                <ul>
+                                    <li>APP</li>
+                                    <li>2013.03-04</li>
+                                </ul>
+
+                            </div>
+                            <div class="wid_overlay_text"> 
+                                <ul>
+                                    <li>BOW</li>
+                                    <li>HOME</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </a>
+                        
+                    
                 </div>
                 <div class="wid"></div>
                 <div class="wid"></div>
                 <div class="wid"></div>
-                <div class="wid">
-                </div>
+                <div class="wid"></div>
                 <div class="wid"></div>
                 <div class="wid"></div>
                 <div class="wid"></div>
@@ -44,19 +72,67 @@
         </div>    
         <div class="info">
           <img src="image/info_copy.png" class="copy1">
-        </div>
-              
+            <div class="top">
+                <img src="image/btn_top.png">
+            </div>
+        
         </div>
         
+     
         <div class="footer">
-             <ul class="copy2">
+            
+            <div class="copy3">
+                <img src="image/footer_copy_2.png">
+            </div>
+            
+            <div class="social">  
+                <div class="social_child_container">
+                     <div class="social_child_1">
+<!--                        <img src="image/btn_social_f.png">-->
+                    </div>
+                    <div class="social_child_2">
+                    </div>
+                    <div class="social_child_3">
+                    </div>
+                </div>
+               
+            </div>
+
+           
+            
+       <!--  <div class="copy2">    
+             <ul>
                 
-               <li> Jeong. soyoung </li>
-               <li> soing1130@gmail.com </li>
-               <li>                     </li>
-               <li> 556-6, Seongnam 3-dong, Seo-gu, Incheon, Korea                </li>
-                            
-            </ul>
+                   <li> Jeong. soyoung </li>
+                   <li> soing1130@gmail.com </li>
+                   <li>                     </li>
+                   <li> 556-6, Seongnam 3-dong, Seo-gu, Incheon, Korea                </li>
+
+                </ul></div>-->
+            </div>     
+             
+        </div>
+    
+    
+        <div class="popup_container">
+            <div class="popup">
+                <div class="bow">
+                    <div> 
+                        <image src="image/popup_bowhome_1.png">
+                    </div>
+
+                    <div>
+                        <image src="image/popup_bowhome_2.png">
+                    </div>
+                </div>
+
+                <div class="close_container" onclick="hidePopup()">
+                    <div class="close_inner_container">
+                        <div class="close1"></div>
+                        <div class="close2"></div>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </body>
