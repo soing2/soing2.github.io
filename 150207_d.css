@@ -16,6 +16,8 @@ img{
     height: 30px;
     top: 30px;
     left: 140px;
+    z-index: 3002;
+    cursor: pointer;
 }
 .menu{
     position: inherit;
@@ -23,6 +25,8 @@ img{
     height: 30px;
     top: 30px;
     right: 140px;
+    cursor: pointer;
+    z-index:3002;
 }
 .swipe{
     position: absolute;
@@ -55,10 +59,18 @@ img{
     z-index: 3000;
     width: 100%;
     height: 100px;
+    
+    
+    
+}
+
+.bar_cover {
+    position: absolute;
+    z-index:3001;
+    width: 100%;
+    height:100%;
     background: #343434;
     opacity: 0.5;
-    
-    
 }
 .header{
     position: relative;
@@ -90,11 +102,18 @@ img{
     padding: 0;
 }
 
+.copyright { 
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 140px;
+}
+
 .top{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 100px;
     width:55px;
     height:55px;
     cursor: pointer;
